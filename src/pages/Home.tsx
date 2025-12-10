@@ -1,0 +1,96 @@
+import { Link } from 'react-router-dom';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
+export default function Home() {
+
+  return (
+    <div className="grid w-full max-w-5xl grid-rows-[auto_1fr_auto]">
+      <Header />
+      <main className="animate-fadeUp flex flex-col items-center w-full gap-[5rem] my-[5rem] lg:gap-[10rem] lg:my-[10rem]">
+        <div className="flex flex-col items-center max-w-3xl gap-1 text-center">
+          <span className="text-3xl md:text-4xl lg:text-6xl font-bold text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">Hey, I'm Digamber!</span>
+          <span className="text-3xl md:text-4xl lg:text-6xl font-bold text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">Building the Web</span>
+          <span className="text-3xl md:text-4xl lg:text-6xl font-bold text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">One Line at a Time</span>
+          <span className="grid w-full max-w-5xl grid-rows-[auto_1fr_auto] text-xs md:text-sm text-[var(--text)] dark:text-[var(--dark-secondary-text)] my-10 lg:w-4/5 text-cursor">Frontend developer passionate about React ecosystems, performance optimization, and modern web architecture. Building production apps that users love.</span>          <div className="flex items-center justify-center gap-4">
+            <a href="https://github.com/digambernegi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                title="GitHub"
+                className="flex items-center justify-center w-6 h-6 dark:invert"
+                src="/assets/git.svg"
+                alt="gitHub"
+                width={50}
+                height={50}
+              /></a>
+            <a href="https://www.linkedin.com/in/digamber-negi-5b2296135/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                title="LinkedIn"
+                className="flex items-center justify-center w-6 h-6 dark:invert"
+                src="/assets/linkedIn.svg"
+                alt="linkedIn"
+                width={50}
+                height={50}
+              /></a>
+          </div>
+        </div>
+
+        <div className="flex flex-col items-center w-full gap-6 lg:gap-10">
+          <div className="flex items-center justify-between w-full">
+            <h3 className="text-2xl text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">Featured Projects</h3>
+            <Link to="/project" className="text-sm text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] hover:text-orange-400">View All</Link>
+          </div>
+
+          <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2">
+            <div className="group relative overflow-hidden rounded-lg border border-neutral-200 dark:border-neutral-800">
+              <div className="h-[200px] bg-neutral-50 dark:bg-neutral-800 overflow-hidden cursor-pointer">
+                <img
+                  loading='lazy'
+                  decoding='async'
+                  src="/assets/photixa.png"
+                  alt="Photixa"
+                  className="h-full w-full object-cover transition-all duration-700 ease-in-out filter grayscale hover:grayscale-0 group-hover:scale-110"
+                />
+              </div>
+              <div className="p-4">
+                <h4 className="font-medium text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">Photixa - Gallery</h4>
+                <p className="mt-2 text-sm text-[var(--secondary-text)] dark:text-[var(--dark-secondary-text)] text-cursor">A modern image gallery application built with React and Firebase. Features include image upload, real-time updates, and responsive design for optimal viewing across devices.</p>
+                <div className="mt-4 flex gap-2">
+                  <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">ReactJS</span>
+                  <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">Firebase</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-lg border border-neutral-200 dark:border-neutral-800">
+              <div className="h-[200px] bg-neutral-50 dark:bg-neutral-800 overflow-hidden cursor-pointer">
+                <img
+                  loading='lazy'
+                  decoding='async'
+                  src="/assets/netflix.png"
+                  alt="Netflix clone"
+                  className="h-full w-full object-cover transition-all duration-700 ease-in-out filter grayscale hover:grayscale-0 group-hover:scale-110"
+                />
+              </div>
+              <div className="p-4">
+                <h4 className="font-medium text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">Netflix - UI</h4>
+                <p className="mt-2 text-sm text-[var(--secondary-text)] dark:text-[var(--dark-secondary-text)] text-cursor">A Netflix interface clone powered by TMDB API. Features dynamic content loading, responsive design, and movie categorization similar to the original platform.</p>
+                <div className="mt-4 flex gap-2">
+                  <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">ReactJS</span>
+                  <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">TMDB</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
