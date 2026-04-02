@@ -10,7 +10,7 @@ export default function About() {
                     <h2 className="relative block text-5xl text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">About me</h2>
                     <div className="flex flex-col-reverse grid-cols-2 gap-6 md:grid md:gap-20">
                         <div className="flex flex-col gap-4">
-                            <p className='text-[var(--secondary-text)] text-cursor'>I'm Digamber Negi, a Frontend Developer with 3.6+ years of experience building production-ready web and mobile applications. Currently working as Software Engineer (Frontend) at Aptlogica Technologies, where I lead a team of 3 developers in building scalable frontend solutions.</p>
+                            <p className='text-[var(--secondary-text)] text-cursor'>I'm Digamber Negi, a Frontend Engineer with 3+ years of experience building production-ready web and mobile applications. Currently working as Software Engineer (Frontend) at Aptlogica Technologies, where I lead a team of 3 developers in building scalable frontend solutions.</p>
                             <p className='text-[var(--secondary-text)] text-cursor'>I specialize in building interactive, scalable, and efficient web applications using modern frameworks like
                                 <a className="text-[var(--primary-text)] dark:text-[var(--dark-secondary-text)] hover:text-orange-400" target="_blank" href="https://react.dev/" rel="noopener noreferrer"> React.js</a>,
                                 <a className="text-[var(--primary-text)] dark:text-[var(--dark-secondary-text)] hover:text-orange-400" target="_blank" href="https://www.typescriptlang.org/" rel="noopener noreferrer"> TypeScript</a>,
@@ -23,10 +23,10 @@ export default function About() {
 
                         <div className="flex flex-col gap-6 sm:gap-8">
                             <div className="relative w-full overflow-hidden border rounded-lg aspect-square sm:aspect-[3/3]">
-                                <img 
-                                    alt="Digamber Negi" 
+                                <img
+                                    src="/assets/aboutprofile.jpg"
+                                    alt="Digamber Negi"
                                     className="object-cover w-full h-full object-top"
-                                    src="/assets/profile2.jpg"
                                 />
                             </div>
                             <div className="flex flex-col grid-cols-2 gap-4 sm:grid sm:gap-8">
@@ -46,7 +46,7 @@ export default function About() {
                 <div className="flex flex-col w-full gap-8 md:gap-14">
                     <div className="flex items-center justify-between gap-4">
                         <h3 className='text-2xl text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor'>Experience</h3>
-                        <a target="_blank" download="/assets/DigamberNegi_SoftwareDeveloper_Resume.pdf" href="/assets/DigamberNegi_SoftwareDeveloper_Resume.pdf">
+                        <a target="_blank" download="/assets/Digamber Negi - Frontend Engineer.pdf" href="/assets/Digamber Negi - Frontend Engineer.pdf">
                             <button className="text-button font-medium relative flex items-center justify-center py-3 px-6 rounded-3xl transition-all ease-primary duration-[0.25s] border border-neutral-gray-2 dark:border-0 dark:bg-[var(--border)] hover:bg-neutral-gray-3 dark:hover:bg-orange-400 hover:bg-orange-400 h-full w-full">
                                 <div className="dark:text-[var(--dark-pimrary-text)]">Download CV</div></button></a>
                     </div>
@@ -55,7 +55,7 @@ export default function About() {
                             <p className="text-[var(--ternary-text)] md:max-w-60 md:w-full dark:text-[var(--dark-ternary-text)] text-cursor">May 2022 – Present</p>
                             <div className="flex flex-col gap-4 md:gap-6">
                                 <div className="flex flex-col gap-1">
-                                    <h4 className="text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">Aptlogica Technologies</h4>
+                                    <h4 className="text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">Aptlogica Technologies Pvt Ltd</h4>
                                     <p className="text-sm text-[var(--secondary-text)] dark:text-[var(--dark-secondary-text)] text-cursor">Software Engineer (Frontend)</p>
                                 </div>
                                 <div className="text-[var(--ternary-text)] dark:text-[var(--dark-ternary-text)] text-cursor">

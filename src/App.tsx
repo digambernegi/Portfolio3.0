@@ -11,20 +11,20 @@ function App() {
   return (
       <ThemeProvider attribute="data-mode" defaultTheme="light" enableSystem={false} storageKey="portfolio-theme">
         <LenisScrollProvider>
-          <BrowserRouter>
-            <div className="p-6 sm:p-8 lg:p-10 flex justify-center min-h-dvh w-full">
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/project" element={<Project />} />
-              </Routes>
-            </div>
-            <Toaster
-              position="bottom-right"
-              reverseOrder={false}
-            />
-          </BrowserRouter>
+        <BrowserRouter>
+          <div className="p-6 sm:p-8 lg:p-10 flex justify-center min-h-dvh w-full">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/project" element={<Project />} />
+            </Routes>
+          </div>
+          <Toaster
+            position="bottom-right"
+            reverseOrder={false}
+          />
+        </BrowserRouter>
         </LenisScrollProvider>
       </ThemeProvider>
   )

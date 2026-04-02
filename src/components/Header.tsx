@@ -17,7 +17,7 @@ export default function Header() {
                     loading='lazy'
                     decoding='async'
                     className="rounded-full h-11 w-11 object-cover outline-none hover:outline-1 hover:outline-orange-400 transition-all ease-primary duration-[0.25s]"
-                    src="/assets/profile.jpeg"
+                    src="/assets/headerprofile.jpeg"
                     alt="Digamber Negi"
                     width={500}
                     height={500}

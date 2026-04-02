@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import React from 'react'
 
 const Menu = ({isOpen, setIsOpen}: {isOpen: boolean, setIsOpen: (isOpen: boolean) => void}) => {
   return (

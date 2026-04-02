@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -9,14 +8,14 @@ export default function Footer() {
                     <Link to="/" className="rounded-full overflow-hidden w-10 h-10 hover:scale-[1.05] transition-all ease-primary duration-[0.25s]">
                         <img
                             className="rounded-full h-11 w-11 object-cover"
-                            src="/assets/profile.jpeg"
+                            src="/assets/headerprofile.jpeg"
                             alt="Digamber Negi"
                             width={45}
                             height={45}
                         />
                     </Link>
                     <div className="text-[var(--primary-text)] dark:text-[var(--dark-secondary-text)] text-cursor">Hi, I'm
-                        <Link className="text-sm text-[var(--secondary-text)] dark:text-[var(--dark-primary-text)]" to="/"> Digamber Negi</Link>, frontend developer from India. Thanks for checking out my site!</div>
+                        <Link className="text-sm text-[var(--secondary-text)] dark:text-[var(--dark-primary-text)]" to="/"> Digamber Negi</Link>, frontend engineer from India. Thanks for checking out my site!</div>
                     <div className="flex items-center justify-center gap-4 text-content-primary dark:text-content-primary-dark w-fit">
                         <a target="_blank" href="https://github.com/digambernegi"
                             rel="noopener noreferrer">
@@ -39,7 +38,7 @@ export default function Footer() {
                                 height={45}
                             /></a>
                     </div>
-                    <div className="text-sm text-[var(--secondary-text)] dark:text-[var(--dark-secondary-text)] text-cursor">©2025 All rights reserved.</div>
+                    <div className="text-sm text-[var(--secondary-text)] dark:text-[var(--dark-secondary-text)] text-cursor">©2026 All rights reserved.</div>
                 </div>
 
 
@@ -80,7 +79,7 @@ export default function Footer() {
                     <iframe
                         title='Spotify Playlist'
                         className="border-radius:12px backdrop-blur h-full w-full"
-                        src="https://open.spotify.com/emb/ed/playlist/7Cq5O9cTVa1OEutcLTYm5x?utm_source=generator"
+                        src="https://open.spotify.com/embed/playlist/7Cq5O9cTVa1OEutcLTYm5x?utm_source=generator"
                         width="100%"
                         height="182"
                         allowFullScreen

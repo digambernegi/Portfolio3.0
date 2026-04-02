@@ -12,7 +12,7 @@ export default function Home() {
           <span className="text-3xl md:text-4xl lg:text-6xl font-bold text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">Hey, I'm Digamber!</span>
           <span className="text-3xl md:text-4xl lg:text-6xl font-bold text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">Building the Web</span>
           <span className="text-3xl md:text-4xl lg:text-6xl font-bold text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">One Line at a Time</span>
-          <span className="grid w-full max-w-5xl grid-rows-[auto_1fr_auto] text-xs md:text-sm text-[var(--text)] dark:text-[var(--dark-secondary-text)] my-10 lg:w-4/5 text-cursor">Frontend developer passionate about React ecosystems, performance optimization, and modern web architecture. Building production apps that users love.</span>          <div className="flex items-center justify-center gap-4">
+          <span className="grid w-full max-w-5xl grid-rows-[auto_1fr_auto] text-xs md:text-sm text-[var(--text)] dark:text-[var(--dark-secondary-text)] my-10 lg:w-4/5 text-cursor">Frontend Engineer passionate about React ecosystems, performance optimization, and modern web architecture. Building production apps that users love.</span>          <div className="flex items-center justify-center gap-4">
             <a href="https://github.com/digambernegi"
               target="_blank"
               rel="noopener noreferrer"
@@ -72,17 +72,19 @@ export default function Home() {
                 <img
                   loading='lazy'
                   decoding='async'
-                  src="/assets/netflix.png"
-                  alt="Netflix clone"
+                  src="/assets/seedcolor.png"
+                  alt="SeedColor"
                   className="h-full w-full object-cover transition-all duration-700 ease-in-out filter grayscale hover:grayscale-0 group-hover:scale-110"
                 />
               </div>
               <div className="p-4">
-                <h4 className="font-medium text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">Netflix - UI</h4>
-                <p className="mt-2 text-sm text-[var(--secondary-text)] dark:text-[var(--dark-secondary-text)] text-cursor">A Netflix interface clone powered by TMDB API. Features dynamic content loading, responsive design, and movie categorization similar to the original platform.</p>
+                <h4 className="font-medium text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">SeedColor</h4>
+                <p className="mt-2 text-sm text-[var(--secondary-text)] dark:text-[var(--dark-secondary-text)] text-cursor">A free, open-source design token generator that turns any brand color into a complete, export-ready token system — with custom naming conventions, multiple export formats, and instant URL sharing. No login. No paywall. No backend.</p>
                 <div className="mt-4 flex gap-2">
                   <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">ReactJS</span>
-                  <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">TMDB</span>
+                  <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">Zustand</span>
+                  <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">Tailwind</span>
+                  <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">react-colorful</span>
                 </div>
               </div>
             </div>
