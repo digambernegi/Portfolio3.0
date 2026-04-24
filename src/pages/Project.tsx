@@ -15,6 +15,27 @@ export default function Project() {
             </h2>
           </div>
           <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2">
+            <a href="https://demo.serenibase.com/" target="_blank" rel="noopener noreferrer" className="flex flex-col w-full gap-4">
+              <div className="overflow-hidden w-full aspect-[4/3] relative rounded-lg flex items-center justify-center">
+                <div className="w-full h-full will-change-auto">
+                  <img
+                    loading='lazy'
+                    decoding='async'
+                    src="/assets/grid-view.png"
+                    alt="SereniBase-no-code-database-platform"
+                    className="h-full w-full object-cover transition-all duration-700 ease-in-out filter grayscale hover:grayscale-0 group-hover:scale-110"
+                  />
+                </div>
+                <div className="absolute z-10 flex items-center justify-center w-12 h-12 bg-white border rounded-full text-[var(--primary-text)] dark:text-white dark:bg-neutral-900 border-neutral-gray-2 dark:border-neutral-gray-2-dark">
+                  <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 256 256" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path></svg>
+                </div>
+              </div>
+              <div className="flex flex-col gap-1 px-2">
+                <h4 className='text-sm text-[var(--primary-text)] dark:text-[var(--dark-primary-text)]'>Sereni Base - No code database platform</h4>
+                <p className="font-medium text-[var(--secondary-text)] group-hover:text-content-primary dark:group-hover:text-content-primary-dark dark:text-[var(--dark-secondary-text)] ease-primary duration-[0.25s]">Sereni Base is an open-source No code database platform built with React.js & TypeScript. A comprehensive React admin panel and admin dashboard UI providing plugin-extensible UI architecture with advanced field types, multiple view layouts, and real-time collaboration capabilities for modern data management.</p>
+              </div>
+            </a>
+
             <a href="https://seedcolor.netlify.app/" target="_blank" rel="noopener noreferrer" className="flex flex-col w-full gap-4">
               <div className="overflow-hidden w-full aspect-[4/3] relative rounded-lg flex items-center justify-center">
                 <div className="w-full h-full will-change-auto">
@@ -32,7 +53,7 @@ export default function Project() {
               </div>
               <div className="flex flex-col gap-1 px-2">
                 <h4 className='text-sm text-[var(--primary-text)] dark:text-[var(--dark-primary-text)]'>SeedColor</h4>
-                <p className="font-medium text-[var(--secondary-text)] group-hover:text-content-primary dark:group-hover:text-content-primary-dark dark:text-[var(--dark-secondary-text)] ease-primary duration-[0.25s]">SeedColor helps you go from a single base color to a complete, export-ready palette with accessibility checks, live component previews, and shareable URL state..</p>
+                <p className="font-medium text-[var(--secondary-text)] group-hover:text-content-primary dark:group-hover:text-content-primary-dark dark:text-[var(--dark-secondary-text)] ease-primary duration-[0.25s]">SeedColor helps you go from a single base color to a complete, export-ready palette with accessibility checks, live component previews, and shareable URL state.</p>
               </div>
             </a>
 

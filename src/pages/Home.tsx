@@ -47,47 +47,56 @@ export default function Home() {
           </div>
 
           <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2">
-            <div className="group relative overflow-hidden rounded-lg border border-neutral-200 dark:border-neutral-800">
-              <div className="h-[200px] bg-neutral-50 dark:bg-neutral-800 overflow-hidden cursor-pointer">
-                <img
-                  loading='lazy'
-                  decoding='async'
-                  src="/assets/photixa.png"
-                  alt="Photixa"
-                  className="h-full w-full object-cover transition-all duration-700 ease-in-out filter grayscale hover:grayscale-0 group-hover:scale-110"
-                />
-              </div>
-              <div className="p-4">
-                <h4 className="font-medium text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">Photixa - Gallery</h4>
-                <p className="mt-2 text-sm text-[var(--secondary-text)] dark:text-[var(--dark-secondary-text)] text-cursor">A modern image gallery application built with React and Firebase. Features include image upload, real-time updates, and responsive design for optimal viewing across devices.</p>
-                <div className="mt-4 flex gap-2">
-                  <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">ReactJS</span>
-                  <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">Firebase</span>
+            <a href="https://github.com/aptlogica/sereni-base" target="_blank" rel="noopener noreferrer" className="flex flex-col w-full gap-4">
+              <div className="group h-full relative overflow-hidden rounded-lg border border-neutral-200 dark:border-neutral-800">
+                <div className="h-[200px] bg-neutral-50 dark:bg-neutral-800 overflow-hidden cursor-pointer">
+                  <img
+                    loading='lazy'
+                    decoding='async'
+                    src="/assets/serenibase.png"
+                    alt="SereniBase-no-code-database-platform"
+                    className="h-full w-full object-cover transition-all duration-700 ease-in-out filter grayscale hover:grayscale-0 group-hover:scale-110"
+                  />
+                </div>
+                <div className="flex flex-col justify-between p-4">
+                  <div>
+                    <h4 className="font-medium text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">Sereni Base - No code database platform <a href="https://demo.serenibase.com/" target="_blank" rel="noopener noreferrer" className="rounded-full bg-orange-400 border-2 border-orange-100 px-3 py-1 ml-1.5 text-xs text-white cursor-pointer">Preview</a></h4>
+                    <p className="mt-2 text-sm text-[var(--secondary-text)] dark:text-[var(--dark-secondary-text)] text-cursor">Sereni Base is an open-source No code database platform built with React.js & TypeScript. A comprehensive React admin panel and admin dashboard UI providing plugin-extensible UI architecture with advanced field types, multiple view layouts, and real-time collaboration capabilities for modern data management.</p>
+                  </div>
+                  <div className="mt-4 flex gap-2">
+                    <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">ReactJS</span>
+                    <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">Typescript</span>
+                    <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">Tailwind</span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
 
-            <div className="group relative overflow-hidden rounded-lg border border-neutral-200 dark:border-neutral-800">
-              <div className="h-[200px] bg-neutral-50 dark:bg-neutral-800 overflow-hidden cursor-pointer">
-                <img
-                  loading='lazy'
-                  decoding='async'
-                  src="/assets/seedcolor.png"
-                  alt="SeedColor"
-                  className="h-full w-full object-cover transition-all duration-700 ease-in-out filter grayscale hover:grayscale-0 group-hover:scale-110"
-                />
-              </div>
-              <div className="p-4">
-                <h4 className="font-medium text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">SeedColor</h4>
-                <p className="mt-2 text-sm text-[var(--secondary-text)] dark:text-[var(--dark-secondary-text)] text-cursor">A free, open-source design token generator that turns any brand color into a complete, export-ready token system — with custom naming conventions, multiple export formats, and instant URL sharing. No login. No paywall. No backend.</p>
-                <div className="mt-4 flex gap-2">
-                  <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">ReactJS</span>
-                  <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">Zustand</span>
-                  <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">Tailwind</span>
-                  <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">react-colorful</span>
+            <a href="https://github.com/digambernegi/Seedcolor" target="_blank" rel="noopener noreferrer" className="flex flex-col w-full gap-4">
+              <div className="group h-full relative overflow-hidden rounded-lg border border-neutral-200 dark:border-neutral-800">
+                <div className="h-[200px] bg-neutral-50 dark:bg-neutral-800 overflow-hidden cursor-pointer">
+                  <img
+                    loading='lazy'
+                    decoding='async'
+                    src="/assets/seedcolor.png"
+                    alt="SeedColor"
+                    className="h-full w-full object-cover transition-all duration-700 ease-in-out filter grayscale hover:grayscale-0 group-hover:scale-110"
+                  />
+                </div>
+                <div className="flex flex-col justify-between p-4">
+                  <div>
+                    <h4 className="font-medium text-[var(--primary-text)] dark:text-[var(--dark-primary-text)] text-cursor">SeedColor <a href="https://seedcolor.netlify.app/" target="_blank" rel="noopener noreferrer" className="rounded-full bg-orange-400 border-2 border-orange-100 px-3 py-1 ml-1.5 text-xs text-white cursor-pointer">Preview</a></h4>
+                    <p className="mt-2 text-sm text-[var(--secondary-text)] dark:text-[var(--dark-secondary-text)] text-cursor">A free, open-source design token generator that turns any brand color into a complete, export-ready token system — with custom naming conventions, multiple export formats, and instant URL sharing. No login. No paywall. No backend.</p>
+                  </div>
+                  <div className="mt-4 flex gap-2">
+                    <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">ReactJS</span>
+                    <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">Zustand</span>
+                    <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">Tailwind</span>
+                    <span className="rounded-full bg-neutral-100 dark:bg-[var(--dark-background)] px-3 py-1 text-xs dark:text-[var(--dark-secondary-text)] text-cursor">react-colorful</span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </main>
